@@ -1,0 +1,6 @@
+out_f = open("text5.txt", "w")
+my_list = list(map(int,input().split()))
+num_sum = sum(my_list)
+my_sum = str(num_sum)
+out_f.write(my_sum)
+out_f.close()
